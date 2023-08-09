@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  padding: 26px;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 80vh;
+  background-size: cover;
+  border-radius: 12px;
+  margin: 22px;
+  padding: 26px;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #000000;
+  margin-bottom: 10%;
+}
+
+.val{
+  color: #ffd569;
+}
+
+.fruits-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-card {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  height: 150px;
+}
+
+.mango {
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #ffffff;
+  margin-top: 22px;
+  border: 0px;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+}
